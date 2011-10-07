@@ -11,6 +11,12 @@ div#outer {
 	background-color: black;
 }
 
+#test2{
+	height: 800px;
+	width: 33%;
+	background-color: white;
+}
+
 .jqclock {
 	float: left;
 	text-align: center;
@@ -25,6 +31,7 @@ div#outer {
 	margin-bottom: 10px;
 	font-size: 18px;
 	display: block;
+	/* comment below to hide date */
 	visibility: hidden;
 }
 
