@@ -1,4 +1,4 @@
-package com.cliftonsnyder.pilot.model;
+package net.cliftonsnyder.pilot.model;
 
 import java.util.Hashtable;
 import java.util.Date;

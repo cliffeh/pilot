@@ -12,8 +12,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
 import javax.ws.rs.core.UriInfo;
 
-import com.cliftonsnyder.pilot.model.DataElement;
-import com.cliftonsnyder.pilot.model.DataList;
+import net.cliftonsnyder.pilot.model.DataElement;
+import net.cliftonsnyder.pilot.model.DataList;
+
 
 @Path("/list")
 public class DataListResource {

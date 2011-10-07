@@ -1,0 +1,5 @@
+#!/bin/bash
+
+URL='http://localhost:8080/pilot/rest/list'
+
+curl -o- --header 'Accept: application/json' ${URL}
