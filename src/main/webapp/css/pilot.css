@@ -1,7 +1,40 @@
 /* pilot.css */
-
 html,body,div {
 	margin: 0;
 	padding: 0;
 	font-family: verdana;
+}
+
+div#outer {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.jqclock {
+	float: left;
+	text-align: center;
+	border: 1px Black solid;
+	background: LightYellow;
+	padding: 10px;
+	margin: 20px;
+}
+
+.clockdate {
+	color: DarkRed;
+	margin-bottom: 10px;
+	font-size: 18px;
+	display: block;
+	visibility: hidden;
+}
+
+.clocktime {
+	border: 2px inset White;
+	background: Black;
+	padding: 5px;
+	font-size: 14px;
+	font-family: "Courier";
+	color: LightGreen;
+	margin: 2px;
+	display: block;
 }
