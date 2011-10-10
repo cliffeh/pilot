@@ -1,5 +1,5 @@
 #!/bin/bash
 
-URL='http://localhost:8080/pilot/rest/list'
+URL='http://localhost:5555/pilot/rest/text'
 
 curl -o- --header 'Accept: application/json' ${URL}
